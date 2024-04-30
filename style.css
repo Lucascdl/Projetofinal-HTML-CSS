@@ -58,19 +58,19 @@ a{
     text-transform: uppercase;
 }
 
+.section3 h3{
+    text-align: left;
+}
 .section2 p {
     max-width: 400px;
     text-align: center;
 }
 
-.container {
-    display: flex; /* Usa flexbox */
-    align-items: center; /* Centraliza verticalmente */
+.section3 p{
+    text-align: right;
+}
+.section3 img{
+    display: flex;
 }
 
-.container img {
-    margin-right: 20px; /* Adiciona um espaço entre a imagem e o texto */
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-}
-
-
+    
