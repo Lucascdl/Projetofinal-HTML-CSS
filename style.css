@@ -62,3 +62,15 @@ a{
     max-width: 400px;
     text-align: center;
 }
+
+.container {
+    display: flex; /* Usa flexbox */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.container img {
+    margin-right: 20px; /* Adiciona um espaço entre a imagem e o texto */
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
+}
+
+
