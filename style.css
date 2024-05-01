@@ -3,6 +3,11 @@
 
     margin: 0;
 }
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
 
 a{
     text-decoration: none;
@@ -65,10 +70,12 @@ a{
     max-width: 400px;
     text-align: center;
 }
-/.article {
-    display: flex;
+.article {
     justify-content: center;
-    align-items: center;  
+    align-items: center;    
+    flex-basis: 50%;
+    width: 50%;
+
  
 }
 .article h3{
@@ -79,7 +86,7 @@ a{
 .paragrafo1 {
     width: center;
 }
-.article2 {}
+
 
 .article2 h3 {
     width: 150%;
@@ -103,18 +110,23 @@ a{
     }
     
 .footer{
-    background-color: #40297A ;
-    display:flex;
+    background-color: #40297A;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 32px;
-    
 }
-.conteiner{
-    background-color: white;
-}
-.footer h2{
+
+ 
+.footer h2 {
     color: #ffffff;
     font: bolder;
     text-transform: uppercase;
+}.rodape{ 
+    text-align: right;
+    padding-left: 5%;
+    color:#ffffff
+    
+    
 }
+ 
