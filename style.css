@@ -1,51 +1,48 @@
-
-*{
+* {
 
     margin: 0;
 }
-body{
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden
-}
 
-a{
+a {
     text-decoration: none;
 }
-.header{
-    background-color: #626BF2 ;
-    display:flex;
+
+.header {
+    background-color: #626BF2;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 32px;
 }
 
 
-.logo { 
-    color:#ffffff;
+.logo {
+    color: #ffffff;
     font-size: 26px;
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .nav {
     display: flex;
     gap: 32px
 }
+
 .nav a {
-    color:#ffffff;
+    color: #ffffff;
     font-weight: 600;
     text-transform: uppercase;
-    
+
 }
 
 /* hero*/
 
-.hero img{
+.hero img {
     width: 100%;
-    height:100% ;
+    height: 100%;
 }
 
-.section2{
+.section2 {
     margin-bottom: 50px;
     margin-top: 50px;
     display: flex;
@@ -53,32 +50,77 @@ a{
     align-items: center;
 }
 
-.section2 div{
+.section2 div {
     display: flex;
     align-items: center;
     gap: 16px;
 }
 
-.section div h2{
+.section div h2 {
     text-transform: uppercase;
 }
 
-.section3 h3{
+.section3 h3 {
     text-align: left;
 }
+
 .section2 p {
     max-width: 400px;
     text-align: center;
 }
-.article {
-    justify-content: center;
-    align-items: center;    
-    flex-basis: 50%;
-    width: 50%;
 
- 
+.article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 45%;
+    /*define o tamanho do container*/
+
 }
-.article h3{
+
+.article2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 45%
+        /*define o tamanho do container*/
+
+
+}
+
+.article3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 45%;
+    /*define o tamanho do container*/
+}
+
+.article4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 45%
+        /*define o tamanho do container*/
+}
+
+.article5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 45%;
+    /*define o tamanho do container*/
+}
+
+.article6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 45%
+        /*define o tamanho do container*/
+}
+
+.article h3 {
     width: 150%;
 
 }
@@ -87,46 +129,69 @@ a{
     width: center;
 }
 
-
 .article2 h3 {
     width: 150%;
 
 }
+
 .paragrafo2 {
     width: center;
-    } 
+}
 
-    button {
-        background-color: #626BF2; /* Cor de fundo */
-        color: white; /* Cor do texto */
-        padding: 5px 15px; /* Espaçamento interno */
-        border: none; /* Sem borda */
-        border-radius: 5px; /* Borda arredondada */
-        cursor: pointer; /* Cursor ao passar o mouse */
-    }
-    
-    button:hover {
-        background-color: #5f57ca; /* Mudança de cor ao passar o mouse */
-    }
-    
-.footer{
+button {
+    background-color: #626BF2;
+    /* Cor de fundo  */
+    color: white;
+    /* Cor do texto */
+    padding: 5px 15px;
+    /* Espaçamento interno */
+    border: none;
+    /* Sem borda */
+    border-radius: 5px;
+    /* Borda arredondada */
+    cursor: pointer;
+    /* Cursor ao passar o mouse */
+}
+
+button:hover {
+    background-color: #5f57ca;
+    /* Mudança de cor ao passar o mouse */
+}
+
+.footer {
     background-color: #40297A;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 32px;
+
 }
 
- 
+.conteiner {
+    background-color: white;
+}
+
 .footer h2 {
     color: #ffffff;
     font: bolder;
     text-transform: uppercase;
-}.rodape{ 
-    text-align: right;
-    padding-left: 5%;
-    color:#ffffff
-    
-    
 }
- 
+
+.div-article {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
