@@ -167,8 +167,13 @@ button:hover {
 
 }
 
-.conteiner {
-    background-color: white;
+.footer h3{
+    color: white;
+    font:bolder
+}
+.footer p{
+    color:#ffffff;
+    font: bolder
 }
 
 .footer h2 {
