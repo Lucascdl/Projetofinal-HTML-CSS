@@ -162,25 +162,49 @@ button:hover {
     background-color: #40297A;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 32px;
-    
+    align-items: 100;
+    padding: 40px;
+    width: 100%;
 
 }
 
 .footer h3{
     color: white;
-    font:bolder
+    font-weight: bolder;
+    line-height: 3;
+    
 }
 .footer p{
     color:#ffffff;
-    font: bolder
+    font-weight: bolder;
+    line-height: 1.5;
 }
 
 .footer h2 {
     color: #ffffff;
-    font: bolder;
-    text-transform: uppercase;
+    font-weight: bolder;
+    line-height: 3;
+}
+
+.footer a { 
+    color:#ffffff;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+.footer li { 
+    color:#ffffff;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+footer.site-info {
+    background-color: #4e138d;
+    text-align: center;
+    padding: 2px 0;
+    width: 100%;
+    bottom: 0;
+    align-items: 0;
 }
 
 .div-article {
