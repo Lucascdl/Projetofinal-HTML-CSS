@@ -25,7 +25,7 @@ a {
 
 .nav {
     display: flex;
-    gap: 32px
+    gap: 100px
 }
 
 .nav a {
@@ -35,6 +35,29 @@ a {
 
 }
 
+.image-text {
+    position: absolute;
+    top: 31%;
+    left: 33%;
+    transform: translate(-54%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 44px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 17%;
+  }
+  .image-text1{
+    position: absolute;
+    top: 43%;
+    left: 25%;
+    transform: translate(-35%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 28px;
+    font-weight: bolder;
+  }
+  
 /* hero*/
 
 .hero img {
@@ -69,6 +92,10 @@ a {
     text-align: center;
 }
 
+.paragrafo {
+    width: center;
+}
+
 .article {
     display: flex;
     justify-content: center;
@@ -78,65 +105,13 @@ a {
 
 }
 
-.article2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 45%
-        /*define o tamanho do container*/
 
-
-}
-
-.article3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 45%;
-    /*define o tamanho do container*/
-}
-
-.article4 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 45%
-        /*define o tamanho do container*/
-}
-
-.article5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 45%;
-    /*define o tamanho do container*/
-}
-
-.article6 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 45%
-        /*define o tamanho do container*/
-}
 
 .article h3 {
     width: 150%;
 
 }
 
-.paragrafo1 {
-    width: center;
-}
-
-.article2 h3 {
-    width: 150%;
-
-}
-
-.paragrafo2 {
-    width: center;
-}
 
 button {
     background-color: #626BF2;
@@ -168,7 +143,7 @@ button:hover {
 
 }
 
-.footer h3{
+.widget-title {
     color: white;
     font-weight: bolder;
     line-height: 3;
@@ -218,6 +193,10 @@ footer.site-info {
     justify-content: space-between;
     align-items: stretch;
     justify-content: space-between;
+}
+.copyright-bar {
+    color: #ffffff;
+    font: bolder;
 }
 
 body {
