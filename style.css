@@ -15,7 +15,10 @@ a {
     padding: 32px;
 }
 
-
+.logo a {
+    text-decoration: none;
+    color: white;
+}
 .logo {
     color: #ffffff;
     font-size: 26px;
@@ -34,28 +37,26 @@ a {
     text-transform: uppercase;
 
 }
-
 .image-text {
     position: absolute;
-    top: 31%;
-    left: 33%;
-    transform: translate(-54%, -50%);
     z-index: 1;
     color: white;
-    font-size: 44px;
+    font-size: 50px;
     font-weight: bolder;
     text-transform: uppercase;
-    padding: 17%;
+    width: 38%;
+    left: 10%;
+    top: 21%;;
+
   }
-  .image-text1{
+  .image-text1 {
     position: absolute;
-    top: 43%;
-    left: 25%;
-    transform: translate(-35%, -50%);
     z-index: 1;
     color: white;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bolder;
+    top: 40%;
+    left: 180px;
   }
   
 /* hero*/
@@ -79,8 +80,9 @@ a {
     gap: 16px;
 }
 
-.section div h2 {
+.section2 div h2 {
     text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .section3 h3 {
@@ -88,7 +90,7 @@ a {
 }
 
 .section2 p {
-    max-width: 400px;
+    m;ax-width: 400px
     text-align: center;
 }
 
