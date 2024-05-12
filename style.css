@@ -37,28 +37,8 @@ a {
     text-transform: uppercase;
 
 }
-.image-text {
-    position: absolute;
-    z-index: 1;
-    color: white;
-    font-size: 50px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    width: 38%;
-    left: 10%;
-    top: 21%;;
 
-  }
-  .image-text1 {
-    position: absolute;
-    z-index: 1;
-    color: white;
-    font-size: 30px;
-    font-weight: bolder;
-    top: 40%;
-    left: 180px;
-  }
-  
+
 /* hero*/
 
 .hero img {
@@ -85,17 +65,16 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.section3 h3 {
-    text-align: left;
-}
 
 .section2 p {
-    m;ax-width: 400px
-    text-align: center;
+   text-align: center;
+   
 }
 
 .paragrafo {
-    width: center;
+    text-align: justify;
+    margin-left: 17px;
+    margin-top: -20px;
 }
 
 .article {
@@ -103,7 +82,8 @@ a {
     justify-content: center;
     align-items: center;
     flex-basis: 45%;
-    /*define o tamanho do container*/
+    margin-bottom:  50px;
+    
 
 }
 
@@ -111,22 +91,21 @@ a {
 
 .article h3 {
     width: 150%;
+padding-left:  135%;
 
 }
 
 
+
 button {
     background-color: #626BF2;
-    /* Cor de fundo  */
     color: white;
-    /* Cor do texto */
-    padding: 5px 15px;
-    /* Espaçamento interno */
+    padding: 3% 16px;
     border: none;
-    /* Sem borda */
-    border-radius: 5px;
-    /* Borda arredondada */
+    border-radius: 6%;
     cursor: pointer;
+    transform: translateX(233%);
+;
     /* Cursor ao passar o mouse */
 }
 
@@ -138,8 +117,7 @@ button:hover {
 .footer {
     background-color: #40297A;
     display: flex;
-    justify-content: space-between;
-    align-items: 100;
+    justify-content: space-between; 
     padding: 40px;
     width: 100%;
 
@@ -176,16 +154,16 @@ button:hover {
 }
 
 footer.site-info {
-    background-color: #4e138d;
     text-align: center;
-    padding: 2px 0;
-    width: 100%;
-    bottom: 0;
-    align-items: 0;
+    width: auto;
+    bottom: 38px;
+    margin-left: 42px;
+    margin-right: 42px;
+    background-color: #40297a
 }
 
 .div-article {
-    width: 85%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
