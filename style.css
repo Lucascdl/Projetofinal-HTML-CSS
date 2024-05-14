@@ -19,6 +19,7 @@ a {
     text-decoration: none;
     color: white;
 }
+
 .logo {
     color: #ffffff;
     font-size: 26px;
@@ -67,8 +68,8 @@ a {
 
 
 .section2 p {
-   text-align: center;
-   
+    text-align: center;
+
 }
 
 .paragrafo {
@@ -82,8 +83,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-basis: 45%;
-    margin-bottom:  50px;
-    
+    margin-bottom: 50px;
 
 }
 
@@ -91,33 +91,56 @@ a {
 
 .article h3 {
     width: 150%;
-padding-left:  135%;
+    padding-left: 160%;
 
 }
 
 
 
-button {
-    background-color: #626BF2;
-    color: white;
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
     padding: 3% 16px;
-    border: none;
-    border-radius: 6%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
     cursor: pointer;
-    transform: translateX(233%);
-;
-    /* Cursor ao passar o mouse */
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    margin-left: 150px;
+    transform: translateX(150px);
 }
 
-button:hover {
-    background-color: #5f57ca;
-    /* Mudança de cor ao passar o mouse */
+.btn-1 {
+    background: rgb(96, 9, 240);
+    background: linear-gradient(0deg, rgba(96, 9, 240, 1) 0%, rgba(129, 5, 240, 1) 100%);
+    border: none;
 }
+
+.btn-1:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn-1:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+        -4px -4px 6px 0 rgba(116, 125, 136, .5),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
 
 .footer {
     background-color: #40297A;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     padding: 40px;
     width: 100%;
 
@@ -127,10 +150,11 @@ button:hover {
     color: white;
     font-weight: bolder;
     line-height: 3;
-    
+
 }
-.footer p{
-    color:#ffffff;
+
+.footer p {
+    color: #ffffff;
     font-weight: bolder;
     line-height: 1.5;
 }
@@ -141,14 +165,14 @@ button:hover {
     line-height: 3;
 }
 
-.footer a { 
-    color:#ffffff;
+.footer a {
+    color: #ffffff;
     font-weight: bolder;
     line-height: 1.5;
 }
 
-.footer li { 
-    color:#ffffff;
+.footer li {
+    color: #ffffff;
     font-weight: bolder;
     line-height: 1.5;
 }
@@ -174,6 +198,7 @@ footer.site-info {
     align-items: stretch;
     justify-content: space-between;
 }
+
 .copyright-bar {
     color: #ffffff;
     font: bolder;
