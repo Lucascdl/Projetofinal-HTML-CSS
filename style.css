@@ -35,15 +35,35 @@ a {
     color: #ffffff;
     font-weight: 600;
     text-transform: uppercase;
-
 }
 
+.image-text {
+    position: absolute;
+    z-index: 1 ;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 38%;
+    left: 10%;
+    top: 21%;
+}
+.image-text1 {
+    position: absolute;
+    z-index: 1;
+    color: white;   
+    font-size: 32px;
+    font-weight: bolder;
+    top: 40%;
+    left: 180px;
+}
 
 /* hero*/
 
 .hero img {
     width: 100%;
     height: 100%;
+    
 }
 
 .section2 {
@@ -68,6 +88,7 @@ a {
 
 .section2 p {
    text-align: center;
+   margin-left: 76px;
    
 }
 
