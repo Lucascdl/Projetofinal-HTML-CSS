@@ -140,6 +140,7 @@ button:hover {
     align-items: 100;
     padding: 40px;
     width: 100%;
+    box-sizing: border-box;
 
 }
 
