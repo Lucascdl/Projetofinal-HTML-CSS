@@ -15,6 +15,10 @@ a {
     padding: 32px;
 }
 
+.logo a {
+    text-decoration: none;
+    color: white;
+}
 
 .logo {
     color: #ffffff;
@@ -35,29 +39,7 @@ a {
 
 }
 
-.image-text {
-    position: absolute;
-    top: 31%;
-    left: 33%;
-    transform: translate(-54%, -50%);
-    z-index: 1;
-    color: white;
-    font-size: 44px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    padding: 17%;
-  }
-  .image-text1{
-    position: absolute;
-    top: 43%;
-    left: 25%;
-    transform: translate(-35%, -50%);
-    z-index: 1;
-    color: white;
-    font-size: 28px;
-    font-weight: bolder;
-  }
-  
+
 /* hero*/
 
 .hero img {
@@ -79,21 +61,21 @@ a {
     gap: 16px;
 }
 
-.section div h2 {
+.section2 div h2 {
     text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.section3 h3 {
-    text-align: left;
-}
 
 .section2 p {
-    max-width: 400px;
     text-align: center;
+
 }
 
 .paragrafo {
-    width: center;
+    text-align: justify;
+    margin-left: 17px;
+    margin-top: -20px;
 }
 
 .article {
@@ -101,7 +83,7 @@ a {
     justify-content: center;
     align-items: center;
     flex-basis: 45%;
-    /*define o tamanho do container*/
+    margin-bottom: 50px;
 
 }
 
@@ -109,35 +91,56 @@ a {
 
 .article h3 {
     width: 150%;
+    padding-left: 160%;
 
 }
 
 
-button {
-    background-color: #626BF2;
-    /* Cor de fundo  */
-    color: white;
-    /* Cor do texto */
-    padding: 5px 15px;
-    /* Espaçamento interno */
-    border: none;
-    /* Sem borda */
+
+.custom-btn {
+    width: 130px;
+    height: 40px;
+    color: #fff;
     border-radius: 5px;
-    /* Borda arredondada */
+    padding: 3% 16px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
     cursor: pointer;
-    /* Cursor ao passar o mouse */
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, .5),
+        7px 7px 20px 0px rgba(0, 0, 0, .1),
+        4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    margin-left: 150px;
+    transform: translateX(150px);
 }
 
-button:hover {
-    background-color: #5f57ca;
-    /* Mudança de cor ao passar o mouse */
+.btn-1 {
+    background: rgb(96, 9, 240);
+    background: linear-gradient(0deg, rgba(96, 9, 240, 1) 0%, rgba(129, 5, 240, 1) 100%);
+    border: none;
 }
+
+.btn-1:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn-1:hover {
+    box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
+        -4px -4px 6px 0 rgba(116, 125, 136, .5),
+        inset -4px -4px 6px 0 rgba(255, 255, 255, .2),
+        inset 4px 4px 6px 0 rgba(0, 0, 0, .4);
+}
+
 
 .footer {
     background-color: #40297A;
     display: flex;
     justify-content: space-between;
-    align-items: 100;
     padding: 40px;
     width: 100%;
     box-sizing: border-box;
@@ -148,10 +151,11 @@ button:hover {
     color: white;
     font-weight: bolder;
     line-height: 3;
-    
+
 }
-.footer p{
-    color:#ffffff;
+
+.footer p {
+    color: #ffffff;
     font-weight: bolder;
     line-height: 1.5;
 }
@@ -162,29 +166,29 @@ button:hover {
     line-height: 3;
 }
 
-.footer a { 
-    color:#ffffff;
+.footer a {
+    color: #ffffff;
     font-weight: bolder;
     line-height: 1.5;
 }
 
-.footer li { 
-    color:#ffffff;
+.footer li {
+    color: #ffffff;
     font-weight: bolder;
     line-height: 1.5;
 }
 
 footer.site-info {
-    background-color: #4e138d;
     text-align: center;
-    padding: 2px 0;
-    width: 100%;
-    bottom: 0;
-    align-items: 0;
+    width: auto;
+    bottom: 38px;
+    margin-left: 42px;
+    margin-right: 42px;
+    background-color: #40297a
 }
 
 .div-article {
-    width: 85%;
+    width: 95%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -195,6 +199,7 @@ footer.site-info {
     align-items: stretch;
     justify-content: space-between;
 }
+
 .copyright-bar {
     color: #ffffff;
     font: bolder;
