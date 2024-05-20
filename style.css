@@ -40,12 +40,13 @@ a {
 }
 
 
-/* hero*/
+/* HEROOOO*/
 
 .hero img {
     width: 100%;
     height: 100%;
 }
+/* CONTEUDOOOO*/
 
 .section2 {
     margin-bottom: 50px;
@@ -54,11 +55,17 @@ a {
     flex-direction: column;
     align-items: center;
 }
-
+#section2 div{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+justify-content: center;
+}
 .section2 div {
     display: flex;
     align-items: center;
     gap: 16px;
+    
 }
 
 .section2 div h2 {
@@ -66,7 +73,11 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
+#section2 p{
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
 .section2 p {
     text-align: center;
 
@@ -204,8 +215,25 @@ footer.site-info {
     font: bolder;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
+
+.image-text {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 38%;
+    left: 10%;
+    top: 21%;;
+
+  }
+  .image-text1 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 36px;
+    font-weight: bolder;
+    top: 40%;
+    left: 153px;
+  }
