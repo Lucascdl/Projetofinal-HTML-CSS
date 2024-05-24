@@ -242,3 +242,23 @@ footer.site-info {
     top: 40%;
     left: 153px;
   }
+  #text{
+  position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    width: 38%;
+    left: 8%;
+    top: 21%;;
+  }
+#text1 {
+    position: absolute;
+    z-index: 1;
+    color: white;
+    font-size: 36px;
+    font-weight: bolder;
+    top: 40%;
+    left: 73px;
+}
