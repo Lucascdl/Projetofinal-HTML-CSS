@@ -10,7 +10,7 @@ a {
 .header {
     background-color: #626BF2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 32px;
 }
@@ -105,7 +105,7 @@ text-transform: uppercase;
 
 .article h3 {
     width: 204%;
-    padding-left: 127%;
+    padding-left: 119%;
     height: 21px;
 }
 
