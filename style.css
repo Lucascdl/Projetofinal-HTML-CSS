@@ -211,7 +211,7 @@ footer.site-info {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: stretch;
+    align-items: self-end;
     justify-content: space-between;
 }
 
