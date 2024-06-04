@@ -208,7 +208,7 @@ footer.site-info {
     width: 100%;
     bottom: 38px;
     margin-left: 0;
-    margin-right: 0 42px;
+
     background-color: #40297a
 }
 
@@ -219,16 +219,15 @@ footer.site-info {
 }
 
 .div-article {
-    width: 95%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
     margin-top: auto;
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
     align-items: self-end;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .copyright-bar {
