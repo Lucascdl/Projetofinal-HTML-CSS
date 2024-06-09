@@ -276,32 +276,41 @@ footer.site-info {
     font-weight: bolder;
     top: 40%;
     left: 73px;
-}
-
-.home {
-    position: relative;
-    display: inline-block;
-}
-
-.home img {
-    display: block;
-}
-
-.home .text-overlay {
+}#texthome{
+   font: caption;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    z-index: 1;
     color: white;
-    padding: 10px;
-    border-radius: 5px;
-}
+    font-size: 48px;
+    font-weight: bolder;
+    top: 35%;
+    left: 104px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 50%;
 
-.home .img-overlay {
-    position: absolute;
-            top: 0;
-            left: 0;
-            width: 50%; /* Ajuste conforme necessário */
-            height: 50%; /* Ajuste conforme necessário */
-            
+
 }
+#buttomhome{
+    position: absolute;
+    z-index: 1;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bolder;
+    top: 56%;
+    left: 9%;
+    width: 145px;
+    height: auto;
+    color: #fff;
+    border-radius: 20px;
+    padding: 1% 13px;
+    font-family: 'Lato', sans-serif;
+    background: linear-gradient(0deg, rgba(96, 9, 240, 1) 0%, #626bf2 100%);
+    border: none;
+    transform: translateX(105px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: inset 2px 2px 1px 0px rgba(58, 50, 163, 0.5), 7px 7px 20px 0px rgba(128, 79, 225, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, .1);
+    outline: none;
+    margin-left: 150px; }
