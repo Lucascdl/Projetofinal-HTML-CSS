@@ -277,3 +277,31 @@ footer.site-info {
     top: 40%;
     left: 73px;
 }
+
+.home {
+    position: relative;
+    display: inline-block;
+}
+
+.home img {
+    display: block;
+}
+
+.home .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.home .img-overlay {
+    position: absolute;
+            top: 0;
+            left: 0;
+            width: 50%; /* Ajuste conforme necessário */
+            height: 50%; /* Ajuste conforme necessário */
+            /* Adicione mais estilos conforme necessário */
+}
