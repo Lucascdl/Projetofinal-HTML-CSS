@@ -218,6 +218,27 @@ footer.site-info {
     margin: 0;
 }
 
+.footer-widget-4 {
+    text-align: center;
+}
+
+.lsi-social-icons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+.lsi-social-icons li {
+    margin: 0 10px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+}
+
+
 .div-article {
     width: 100%;
     margin-left: auto;
